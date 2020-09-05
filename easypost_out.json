@@ -1,0 +1,191 @@
+{
+  "carrier": "USPS",
+  "carrier_detail": {
+    "alternate_identifier": null,
+    "container_type": null,
+    "destination_location": "CHARLESTON SC, 29401",
+    "destination_tracking_location": {
+      "city": "CHARLESTON",
+      "country": null,
+      "object": "TrackingLocation",
+      "state": "SC",
+      "zip": "29407"
+    },
+    "est_delivery_date_local": null,
+    "est_delivery_time_local": null,
+    "guaranteed_delivery_date": null,
+    "initial_delivery_attempt": "2020-08-07T13:13:12Z",
+    "object": "CarrierDetail",
+    "origin_location": "HOUSTON TX, 77001",
+    "origin_tracking_location": {
+      "city": "NORTH HOUSTON",
+      "country": null,
+      "object": "TrackingLocation",
+      "state": "TX",
+      "zip": "77315"
+    },
+    "service": "First-Class Package Service"
+  },
+  "created_at": "2020-09-04T23:22:12Z",
+  "est_delivery_date": "2020-09-04T23:22:12Z",
+  "fees": [
+    {
+      "amount": "0.00000",
+      "charged": false,
+      "object": "Fee",
+      "refunded": false,
+      "type": "TrackerFee"
+    }
+  ],
+  "finalized": true,
+  "id": "trk_34d442044dc24d819b2cba06975ca9ff",
+  "is_return": false,
+  "mode": "test",
+  "object": "Tracker",
+  "public_url": "https://track.easypost.com/djE6dHJrXzM0ZDQ0MjA0NGRjMjRkODE5YjJjYmEwNjk3NWNhOWZm",
+  "shipment_id": null,
+  "signed_by": "John Tester",
+  "status": "delivered",
+  "status_detail": "arrived_at_destination",
+  "tracking_code": "EZ4000000004",
+  "tracking_details": [
+    {
+      "carrier_code": null,
+      "datetime": "2020-08-04T23:22:12Z",
+      "description": null,
+      "message": "Pre-Shipment Info Sent to USPS",
+      "object": "TrackingDetail",
+      "source": "USPS",
+      "status": "pre_transit",
+      "status_detail": "status_update",
+      "tracking_location": {
+        "city": null,
+        "country": null,
+        "object": "TrackingLocation",
+        "state": null,
+        "zip": null
+      }
+    },
+    {
+      "carrier_code": null,
+      "datetime": "2020-08-05T11:59:12Z",
+      "description": null,
+      "message": "Shipping Label Created",
+      "object": "TrackingDetail",
+      "source": "USPS",
+      "status": "pre_transit",
+      "status_detail": "status_update",
+      "tracking_location": {
+        "city": "HOUSTON",
+        "country": null,
+        "object": "TrackingLocation",
+        "state": "TX",
+        "zip": "77063"
+      }
+    },
+    {
+      "carrier_code": null,
+      "datetime": "2020-08-05T22:04:12Z",
+      "description": null,
+      "message": "Arrived at USPS Origin Facility",
+      "object": "TrackingDetail",
+      "source": "USPS",
+      "status": "in_transit",
+      "status_detail": "arrived_at_facility",
+      "tracking_location": {
+        "city": "NORTH HOUSTON",
+        "country": null,
+        "object": "TrackingLocation",
+        "state": "TX",
+        "zip": "77315"
+      }
+    },
+    {
+      "carrier_code": null,
+      "datetime": "2020-08-06T23:40:12Z",
+      "description": null,
+      "message": "Arrived at USPS Facility",
+      "object": "TrackingDetail",
+      "source": "USPS",
+      "status": "in_transit",
+      "status_detail": "arrived_at_facility",
+      "tracking_location": {
+        "city": "COLUMBIA",
+        "country": null,
+        "object": "TrackingLocation",
+        "state": "SC",
+        "zip": "29201"
+      }
+    },
+    {
+      "carrier_code": null,
+      "datetime": "2020-08-07T02:31:12Z",
+      "description": null,
+      "message": "Arrived at Post Office",
+      "object": "TrackingDetail",
+      "source": "USPS",
+      "status": "in_transit",
+      "status_detail": "arrived_at_facility",
+      "tracking_location": {
+        "city": "CHARLESTON",
+        "country": null,
+        "object": "TrackingLocation",
+        "state": "SC",
+        "zip": "29407"
+      }
+    },
+    {
+      "carrier_code": null,
+      "datetime": "2020-08-07T08:11:12Z",
+      "description": null,
+      "message": "Sorting Complete",
+      "object": "TrackingDetail",
+      "source": "USPS",
+      "status": "in_transit",
+      "status_detail": "status_update",
+      "tracking_location": {
+        "city": "CHARLESTON",
+        "country": null,
+        "object": "TrackingLocation",
+        "state": "SC",
+        "zip": "29407"
+      }
+    },
+    {
+      "carrier_code": null,
+      "datetime": "2020-08-07T08:21:12Z",
+      "description": null,
+      "message": "Out for Delivery",
+      "object": "TrackingDetail",
+      "source": "USPS",
+      "status": "out_for_delivery",
+      "status_detail": "out_for_delivery",
+      "tracking_location": {
+        "city": "CHARLESTON",
+        "country": null,
+        "object": "TrackingLocation",
+        "state": "SC",
+        "zip": "29407"
+      }
+    },
+    {
+      "carrier_code": null,
+      "datetime": "2020-08-07T13:13:12Z",
+      "description": null,
+      "message": "Delivered",
+      "object": "TrackingDetail",
+      "source": "USPS",
+      "status": "delivered",
+      "status_detail": "arrived_at_destination",
+      "tracking_location": {
+        "city": "CHARLESTON",
+        "country": null,
+        "object": "TrackingLocation",
+        "state": "SC",
+        "zip": "29407"
+      }
+    }
+  ],
+  "updated_at": "2020-09-04T23:22:12Z",
+  "weight": null
+}
